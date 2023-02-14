@@ -1,0 +1,87 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.calculator {
+  background-color: #e6e7e7;
+  width: 500px;
+  height: 600px;
+  padding: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator_wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 3px 5px 5px gray;
+}
+
+.Circle {
+  width: 450px;
+  height: 450px;
+  padding: 50px;
+}
+
+.btnSubmit {
+  position: absolute;
+  bottom: 30%;
+  left: 32%;
+  padding: 10px 60px;
+  background-color: #fcda04;
+  border: 1px solid #fcda04;
+  border-radius: 5px;
+}
+.input_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+input {
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Circle {
+    width: 350px;
+    height: 350px;
+  }
+  input {
+    width: 120px;
+    height: 30px;
+    margin: 20px 10px 0px 10px;
+  }
+  .btnSubmit {
+    padding: 5px 20px;
+    left: 38%;
+  }
+}
+
+path {
+  box-shadow: 3px 5px 5px gray;
+}
