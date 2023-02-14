@@ -63,7 +63,7 @@ const Calculator = () => {
           />
         </div>
         <button className="btnSubmit" onClick={results}>
-          sumbit
+          Sumbit
         </button>
         <div className="Circle">
           <CircularProgressbar
