@@ -45,7 +45,7 @@ const Calculator = () => {
   };
 
   return (
-    <div style={{ marginTop: "50px" }} className="calculator">
+    <div className="calculator">
       <div className="calculator_wrapper">
         <h2>Clients Calculator</h2>
         <div className="input_wrapper">
