@@ -77,6 +77,9 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  .calculator_wrapper {
+    width: 320px;
+  }
   .Circle {
     width: 350px;
     height: 350px;
@@ -94,7 +97,7 @@ h2 {
   }
   .btnSubmit {
     padding: 5px 20px;
-    left: 39%;
+    left: 36%;
     bottom: 32%;
     font-weight: bold !important;
   }
