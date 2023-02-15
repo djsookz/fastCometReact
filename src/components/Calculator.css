@@ -41,6 +41,7 @@ input::-webkit-inner-spin-button {
 .isNaN {
   color: red;
   position: absolute;
+  top: 53%;
 }
 
 .Circle {
@@ -89,6 +90,7 @@ h2 {
   }
   .isNaN {
     font-size: 0.7em;
+    top: 53%;
   }
   input {
     width: 120px;
