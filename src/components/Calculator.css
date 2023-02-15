@@ -38,6 +38,11 @@ input::-webkit-inner-spin-button {
   box-shadow: 3px 5px 5px gray;
 }
 
+.isNaN {
+  color: red;
+  position: absolute;
+}
+
 .Circle {
   width: 450px;
   height: 450px;
@@ -78,6 +83,9 @@ h2 {
   }
   h2 {
     transform: translateY(0);
+  }
+  .isNaN {
+    font-size: 0.7em;
   }
   input {
     width: 120px;
